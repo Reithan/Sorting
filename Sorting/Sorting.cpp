@@ -100,7 +100,6 @@ int main() {
 	quicksort(data, length);
 
 	print_data(data, length);
-
 	system("pause");
 
 	return 0;
