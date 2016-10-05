@@ -145,6 +145,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="introsort.hpp" />
     <ClInclude Include="mergesort.hpp" />
     <ClInclude Include="quicksort.hpp" />
     <ClInclude Include="stdafx.h" />

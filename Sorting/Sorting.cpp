@@ -2,8 +2,7 @@
 //
 
 #include "stdafx.h"
-#include "quicksort.hpp"
-#include "mergesort.hpp"
+#include "introsort.hpp"
 
 using namespace std;
 
@@ -18,14 +17,14 @@ void print_data(T* data, size_t length) {
 }
 
 int main() {
-	static const size_t length = 50u;
+	static const size_t length = 5000u;
 	srand((unsigned int)time(nullptr));
 	int data[length];
 	for (size_t i = 0; i < length; ++i) {
-		data[i] = rand()%20;
+		data[i] = rand() % 20;
 	}
 
-	mergesort(data, length);
+	introsort(data, length);
 
 	print_data(data, length);
 	system("pause");
